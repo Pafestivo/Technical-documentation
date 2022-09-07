@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navigation bar  */
+#navbar {
+  min-width: 290px;
+  border: 1px solid #000;
+}
+
+#navbar header {
+  font-size: 1.2rem;
+  margin: -1px;
+}
+
+#navbar header h1{
+  margin: 0;
+  padding: 15px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar ul li {
+  margin: -1px;
+}
+
+#navbar ul a {
+  display: block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #000;
+  height: 50px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+/* Navigation bar end  */

@@ -1,0 +1,12 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Navigation bar  */
+#navbar {
+  display: flex;
+}
+
+
+/* Navigation bar end  */

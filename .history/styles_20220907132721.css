@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navigation bar  */
+#navbar {
+  min-width: 290px;
+  border: 1px solid #000;
+}
+
+#navbar header {
+  margin: -1px;
+}
+
+#navbar header h1{
+  margin: 0;
+  padding: 15px;
+  border: 1px solid #000;
+}
+
+#navbar ul {
+  list-style: none;
+  overflow: hidden;
+  margin: ;
+  padding: 0;
+}
+
+#navbar ul li {
+}
+
+#navbar ul a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  height: 50px;
+  border: 1px solid #000;
+}
+
+/* Navigation bar end  */

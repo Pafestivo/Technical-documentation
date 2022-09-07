@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+}
+
+/* Navigation bar  */
+#navbar {
+  background-color: green;
+  width: 100%;
+}
+
+#navbar header {
+  background-color: blue;
+  width: 100%;
+}
+
+#navbar ul {
+  list-style: none;
+  background-color: purple;
+  width: 100%;
+}
+
+#navbar ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+#navbar ul a:hover {
+  transform: scale(1.5rem);
+}
+
+/* Navigation bar end  */

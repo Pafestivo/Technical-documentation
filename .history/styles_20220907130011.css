@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Navigation bar  */
+#navbar {
+  display: flex;
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Navigation bar end  */

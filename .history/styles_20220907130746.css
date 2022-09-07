@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+}
+
+/* Navigation bar  */
+#navbar {
+  background-color: green;
+  width: 800px;
+}
+
+#navbar header {
+  background-color: blue;
+  padding: 0;
+}
+
+#navbar ul {
+  list-style: none;
+  background-color: purple;
+  overflow: hidden;
+}
+
+#navbar ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Navigation bar end  */

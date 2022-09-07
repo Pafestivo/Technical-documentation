@@ -1,0 +1,35 @@
+/* Navigation bar  */
+#navbar {
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  min-width: 300px;
+}
+
+#navbar header h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px;
+  font-size: 1.8rem;
+  border: 1px solid rgba(0, 22, 22, 0.4);
+  text-align: center;
+}
+
+/* 800px media query */
+@media (max-width: 800px) {
+  body {
+    display: block;
+  }
+
+  #navbar {
+    height: 300px;
+    overflow: hidden;
+  }
+
+  #navbar h1 {
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+  }
+}
+/* end of 800px media query. */
+/* Navigation bar end  */
